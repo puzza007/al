@@ -1,0 +1,12 @@
+%%% -*- mode: erlang -*-
+{application, al,
+ [
+  {description, "Apache Format Logger For Cowboy"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {env, []}
+ ]}.
